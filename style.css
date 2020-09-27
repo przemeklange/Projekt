@@ -1,0 +1,109 @@
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    body { font-size: 150%; }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-pixel-ratio : 2) {
+    body { font-size: 200%; }
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+.menug{
+    background-color: white;
+}
+
+.logo{
+    padding: 2vh 20vh;
+}
+
+.bslider{
+    background-color: #215398;
+    text-align: center;
+    color: white;
+}
+
+h1.title{
+    padding: 40px 0px 10px 0px;
+}
+h1.titleb{
+    color:black;
+}
+
+p.subtitle{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.details{
+    margin: 50px 0px;
+    background-color: #fff;
+    padding: 60px 20px;
+    position: relative;
+    z-index: 1;
+    height: 17rem;
+}
+
+.details p{
+    font-size: 14px;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.details h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: 0.6s all;
+    color: black;
+    text-align: center;
+}
+
+.details a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    background-color: tomato;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid black;
+    transition: 0.6s all;
+}
+
+.details img{
+    margin:0 auto;
+    display:block;
+}
+
+.details:hover::before{
+    width: 100%;
+}
+
+.details:hover h2,.details:hover p{
+    color: grey;
+}
+
+.details:hover a{
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.eclipse{
+    text-align: center;
+    margin: -15px 0;
+}
+
+.twobd{
+    background-color: #f5f5f5;
+    padding: 5vh 15vh;
+    text-align: center;
+}
+
